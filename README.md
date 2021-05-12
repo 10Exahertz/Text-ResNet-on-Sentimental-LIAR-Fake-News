@@ -28,14 +28,14 @@ We wanted a model that was as powerful as possible but also as usable as possibl
 ## Sentimental LIAR vs LIAR
 The original LIAR paper contained 5 classes ranging from "Pants on fire" to "Mostly True" as stated previously.  We wanted to run the 2 Layer CNN network (Original LIAR paper did not specify these parameters) and test the original LIAR paper for a more direct comparison. We also were curious how much a boost the Sentimental LIAR paper received bythe reduction of the number for classes from 5 to 2, the binary True and False. The Table below shows the results of this experiment. 
 
-![](Images/TableEX1.jpg)
+![alt text](Images/TableEx1.jpg)
 
 It is clear that the Sentimental LIAR network, that is including the sentiments and emotion scores gets a boost on themore important F1 score (imbalanced dataset), but that the overall performance of the network is granted via the binaryclassification system. These models were only run once.
 
 ## Generalization
 Going through the total architecture of the Sentimental LIAR network we noticed a few issues. One was that the use ofSpeaker name, job, party affiliation, and so would not generalize well outside of Politifact. So we ran an experiment to seehow much of a performance change would come from removing the speaker information. We also noticed an odd addition.On Politifact.com a team of journalists votes on the Truthfulness of the statement, this creates a vote count for the six LIARclasses. Reading the journalist vote counts makes it incredible easy to distinguish truth and fact, this should in no waybe included in the network. Since all this will do is set the network up to look for these counts to make an easy decision,this is useless.  Taking the Speaker info out we see a small increase in the F1 score.  Likely due to making informationmore salient, less info means its easier to distinguish important features elsewhere. We notice without the vote counts theperformance on the F1 score drops 5 points to 0.5646. Standard Deviations are shown next to the results below.
 
-![](Images/TableEXOriginal.jpg)
+![alt text](Images/TableExOriginal.jpg)
 
 ## Different Embeddings
 As stated before RoBERTa, ALBERT, XLNet, GPT-2, and ELECTRA are some of these new, state of the art models.RoBERTa and ALBERT seek to resolve the next-sentence prediction task and increase training size and performance.ALBERT is state of the art on semantic text tasks such as STS and SST tasks.  ELECTRA changes the generator to adiscriminator. ELECTRA has state of the art performances on question and reading comprehension tasks. Below shows theresults of all of these models. This experiment was run before the vote counts were taken out, changes should be the samesince these apply to statement embeddings. For ELECTRA and non-sentence embeddings systems we used an averagingmethod for sequence embeddings.
