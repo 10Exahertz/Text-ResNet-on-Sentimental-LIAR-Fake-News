@@ -69,14 +69,23 @@ We introduced ResNet architecture to the Sentimental LIAR dataset, performed ana
 
 # References
 [1]   B. Upadhayay, V. Behzadan. Sentimental LIAR: Extended Corpus and Deep Learning Models for Fake Claim Classification In proceeding ofISI 2020IEEE, 2020.
+
 [2]   W. Y. Wang. "Liar, Liar Pants on Fire": A New Benchmark Dataset for Fake News Detection InACL 2017. 2017.
+
 [3]   A. Wang, A. Singh, J. Michael, F. Hill, O. Levy, S. R. Bowman.  GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language UnderstandingICLR2019, 2019.
+
 [4]   P. Rajpurkar, R. Jia, P. Liang. Know What You Don’t Know: Unanswerable Questions for SQuADACL 2018, 2018.[5]   K. Clark, M.T. Luong, Q.V. Le, C.D. Manning ELECTRA: Pre-training Text Encoders as Discriminators Rather Than GeneratorsICLR 2020, 2020.
+
 [6]   Z. Yang, Z. Dai, Y. Yang, J. Carbonell, R. Salakhutdinov, Q.V. Le.   XLNet:  Generalized Autoregressive Pretraining for Language Understandingarxiv, 2019. citearxiv:1906.08237
+
 [7]   Y. LeCun, L. Buttou, Y. Bengio, and P. Haffner. Gradient Based Learning Applied to Document Recognition In Proceedings ofIEEE November 1998, 1998.
+
 [8]   K. He and X. Zhang and S. Ren and J. Sun Deep Residual Learning for Image Recognition InCoRR 2015, 2015.[9]   A. Conneau, H. Schwenk, L. Barrault and Y. LeCun. Very Deep Convolutional Networks for Natural Language Processing InCoRR 2016, 2016.
+
 [10]   A. Radford, J. Wu, R. Child, D. Luan, D. Amodei and I.Sutskever. Language Models are Unsupervised Multitask Learners FromOpenAI, 2019.
+
 [11]   Z. Lan, M. Chen, S. Goodman, K. Gimpel, P. Sharma, R. Soricut.  ALBERT: A Lite BERT for Self-supervised Learning of Language Representations  InCoRR 2019,2019.
+
 [12]   Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis, L. Zettlemoyer, V. Stoyanov. RoBERTa: A Robustly Optimized BERT Pretraining Approach InArXiv, 2019.
 
 # Appendix
