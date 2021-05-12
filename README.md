@@ -19,7 +19,7 @@ arXivTemplateThe Sentimental LIAR paper used a 2D CNN with max pooling layers in
 
 ResNet Figure B is the image of a basic residual block.  The curving line shows the skip-connection or residual connectionthat allows the block, the two 3x3 convolutional layers in this diagram, to learn the residual instead of the final output.This allows a bypass of the vanishing gradient problem with deep neural networks. There are no gates in a ResNet skipconnection, and in a way this allows for memory to be passed along the network. It does this by taking the output of oneblock and adding it to the output of the next block. Passing it along down the network. This has allowed for very deep CNN’s to be created for very complex tasks.
 
-![alt text](Images/ResNet10TextandBlock.jpg)
+![alt text](Images/resnet10TextandBlock.jpg)
 
 Above is the architecture of the ResNet10 Text Classification Network. Each block contains two 1x3 convolutional layers.We start with the Statement and Sentiment and move them through an embedding generator as before. We then append theemotion scores to this output. We first run a 1x15 CNN layer over this input, this essentially becomes a look up table forthe rest of the ResNet. This ResNet10 network contains only 3 Expansion Stages. Each stage in a ResNet Network expandsthe number of dimensions. The normal expansion schema is [64, 128, 256, 512] for a 4 stage ResNet. After going throughthe 3 stages with residual connections, we arrive at a fully connected linear layer and a classifier. Every layer uses AveragePooling, ReLU activation functions and the first convolutional layer uses dropout for stability. In experiments we will detailmore model types, and of different sizes, but ResNet10 with 3 Stages is our primary ResNet model.
 
