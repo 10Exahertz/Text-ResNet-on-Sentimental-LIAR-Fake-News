@@ -88,6 +88,22 @@ We introduced ResNet architecture to the Sentimental LIAR dataset, performed ana
 
 [12]   Y. Liu, M. Ott, N. Goyal, J. Du, M. Joshi, D. Chen, O. Levy, M. Lewis, L. Zettlemoyer, V. Stoyanov. RoBERTa: A Robustly Optimized BERT Pretraining Approach InArXiv, 2019.
 
+[13]   J. Devlin,  M.W. Chang,  K. Lee,  K. Toutanova.   BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.   In Proceedings of the 2019Conference of the NA Chapter of the ACL: Human Language Technologies, Volume 1 (Long and Short Papers), Minneapolis, 2019
+
+[14]   W. Abdulla. Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow. GitHub, https://github.com/matterport/Mask_RCNN , 2017
+
+[15]   Sen K. McCarthy. Says Joe Biden is “going to control how much meat you can eat.” www.politifact.com
+
+[16]   Pres. J. Biden. In gun policy address, Joe Biden exaggerates about background checks at gun shows. www.politifact.com
+
+[17]   L. Jacobson. Fact-checking Joe Biden on how little some corporations pay in taxes. www.politifact.com
+
+[18]   M. Chan A Date Which Will Live in Infamy.’ Read President Roosevelt’s Pearl Harbor Address https://time.com/4593483/pearl-harbor-franklin-roosevelt-infamy-speech-attack/
+
+[19]   No Author. Current Weather On A Flat Earth. www.darksky.net[20]   T. Carlson. Tucker: Americans are being paid to stay home. Fox News
+
+[21]   T. Carlson. Tucker: The West is a birthright we must preserve. Fox News
+
 # Appendix
 ## CNN Fine Tuning Tests
 ![alt text](Images/CNNFineTuning.jpg)
