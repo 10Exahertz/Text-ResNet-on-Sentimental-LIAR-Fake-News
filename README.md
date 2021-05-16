@@ -109,4 +109,4 @@ We introduced ResNet architecture to the Sentimental LIAR dataset, performed ana
 ![alt text](Images/CNNFineTuning.jpg)
 
 ## ResNet Fine Tuning Tests
-![alt text](Images/ResnetTEsting.jpg)
+![alt text](Images/ResnetTEstingBW.jpg)
