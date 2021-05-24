@@ -135,3 +135,6 @@ Furthermore, going back to Figure 9 we see that the last two statements are more
 
 ## ResNet Fine Tuning Tests
 ![alt text](Images/ResnetTEstingBW.jpg)
+
+## Codes
+All the codes are in the files above, they are available here and on Colab. The 4 Layer CNN, Text-Resnet10, and Simple Feed Forward Test Network are all available in separate folders. 
